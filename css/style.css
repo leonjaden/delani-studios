@@ -128,3 +128,27 @@ div.home {
   background-position: center;
   background-size: cover;
 }
+
+.contact_us > h3 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contact_us_form {
+  margin-bottom: 20px;
+}
+
+.contact_us_form > input {
+  width: 350px;
+  height: 30px;
+  opacity: 0.3;
+}
+
+.message_text > textarea {
+  opacity: 0.3;
+}
+
+::placeholder {
+  color: red;
+}
