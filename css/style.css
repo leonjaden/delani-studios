@@ -17,3 +17,22 @@ div.home {
 .home_logo {
   margin-bottom: 55px;
 }
+
+.home_welcome {
+  font-size: 50px;
+  font-weight: 1000;
+  color: white;
+  margin-bottom: 30px;
+}
+ 
+.delani_welcome {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.home_paragraph {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
