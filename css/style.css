@@ -4,12 +4,16 @@
   font-family:'Source Sans Pro';
 }
 
-.home{
-  height: 100vh;
+div.home {
   width: 100%;
-  background-image: url(./images/background2.jpg);
+  height: 100vh;
+  background-image: url('../images/background2.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding-top: 100px;
+}
+
+.home_logo {
+  margin-bottom: 55px;
 }
