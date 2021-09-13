@@ -139,11 +139,18 @@ div.home {
   margin-bottom: 20px;
 }
 
-.contact_us_form > input {
+#nameInput{
   width: 350px;
   height: 30px;
   opacity: 0.3;
 }
+
+#emailInput{
+  width: 350px;
+  height: 30px;
+  opacity: 0.3;
+}
+
 
 .message_text > textarea {
   opacity: 0.3;

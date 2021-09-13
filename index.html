@@ -60,20 +60,23 @@
   
   <div class="what_we_do">
     <h3><strong>WHAT WE DO</strong></h3>
-      <div class = "what_images">
+      <div id = "what_images" class = "what_images">
         <div>
-          <img class="what_we_do_img" src="images/design_icon.png" alt="">
+          <img id="what_we_do_img" class="what_we_do_img" src="images/design_icon.png" alt="">
           <span class="img_txt">DESIGN</span>
+          <p id="design_text" class="toggle_text">We create the best logo and website designs</p>
         </div>
 
         <div>
-          <img class="what_we_do_img" src="images/dev_icon.png" alt="">
+          <img id="development_img" class="development_img src="images/dev_icon.png" alt="">
           <span class="img_txt">DEVELOPMENT</span>
+          <span id="development_text" class="development_text">We provide the best plans and specifications for projects</span>
         </div>
 
         <div>
-          <img class="what_we_do_img" src="images/product_icon.png" alt="">
+          <img id ="product_img" class="product_img" src="images/product_icon.png" alt="">
           <span class="img_txt">PRODUCT MANAGEMENT</span>
+          <span id="product_text" class="product_text">We create the best work flows and design seamless collaboration</span>
         </div>
       </div>
   </div>
@@ -141,18 +144,23 @@
       </div>
 
   </div>
-
-  <div class="contact_us">
+  <div class = "contact_us">
+    
     <h3><Strong>CONTACT US</Strong></h3>
-    <form class="formInput">
-      <input type="text" class="text_input" id="name_input" placeholder="Name...">
-      <input type="email" class="email_input" id="emailInput" placeholder="Email...">
+
+    <div class="contact_us_form">
+      <form id="formInput">
+        <input type="text" class="name_input" id="nameInput" placeholder="Name...">
+        <input type="email" class="email_input" id="emailInput" placeholder="Email...">
+        <input type="submit" value="submit">
+      </form>
     </div>
     <div class="message_text">
-      <textarea class="form-text-message" id="formText" rows="10" cols="85" placeholder="Your message here"></textarea>
-        <input type="submit">
-    </form>
+        <textarea class="form-text-message" id="formText" rows="10" cols="85" placeholder="Your message here"></textarea>
+          
+      
 
+    </div>
   </div>
 
   <div class ="footer">
@@ -174,5 +182,6 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script> 
 </body>
 </html>
