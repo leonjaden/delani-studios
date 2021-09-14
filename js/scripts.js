@@ -1,46 +1,43 @@
-$(document).ready(function() {
-  $(".what_we_do_img").click(function() { 
-    $(".toggle_text").slideToggle();
-    $(".what_we_do_img").slideToggle();
-    
-  });  
-    $(".toggle_text").click(function() { 
-      $(".what_we_do_img").slideToggle();
-      $(".toggle_text").slideToggle(); 
-    
-  });
-  
+$(document).ready(function(){
 
-  $(".development_img").click(function() { 
-    $(".development_text").slideToggle();
-    $(".development_img").slideToggle();
-    
-  });  
-    $(".toggle_text").click(function() { 
-      $(".development_text").slideToggle();
-      $(".toggle_text").slideToggle(); 
+
+  $("#design").click(function() { 
+      $("#what_we_do_img").hide();
+      $("#design_text").show(); 
     
   });
 
-  
-  $(".product_img").click(function() { 
-    $(".product_text").slideToggle();
-    $(".product_img").slideToggle();
+  $("#design").click(function() { 
+    $("#design_text").show();
+     $("#what_we_do_img").hide();
     
   });  
-    $(".product_text").click(function() { 
-      $(".product_img").slideToggle();
-      $(".product_text").slideToggle(); 
-    
   
-  });
 
+  $("#development").click(function() { 
+    $("#development_img").hide();
+    $("#development_text").show(); 
+  
+});
+
+$("#development").click(function() { 
+  $("#development_text").show();
+   $("#development_img").hide();
+  
+});  
+  
+$("#products").click(function() { 
+  $("#product_img").hide();
+   $("#product_text").show(); 
 
 });
 
+$("#products").click(function() { 
+  $("#product_text").show();
+   $("#product_img").hide();
 
-$(document).ready(function(){
-  
+});  
+
 
   $("#formInput").submit(function(){
     console.log("leo");
@@ -57,5 +54,6 @@ $(document).ready(function(){
       }
 
   });
-
+ 
+  
 });
